@@ -1,0 +1,9 @@
+# Calculate harmonic mean
+hmean <- function(x, na.rm=T){
+  if(na.rm == T){
+    x <- x[!is.na(x)]
+  }
+  x <- x[x != 0]
+  n <- length(x)
+  return(n / sum(1/x))
+}
