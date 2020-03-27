@@ -7,7 +7,6 @@
 #' @keywords contraharmonic mean average
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
-# Calculate contraharmonic mean
 chmean <- function(x, na.rm=T){
   if(na.rm == T){
     x <- x[!is.na(x)]
