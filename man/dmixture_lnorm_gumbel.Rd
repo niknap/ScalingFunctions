@@ -16,7 +16,7 @@ dmixture_lnorm_gumbel(x, logmean, logsd, gumbel.alpha, gumbel.scale,
 
 \item{gumbel.alpha}{Location parameter of the gumbel distribution}
 
-\item{gumbel.scale}{Shape parameter of the gumbel distribution}
+\item{gumbel.scale}{Scale parameter of the gumbel distribution}
 
 \item{w.gumbel}{Weight of the gumbel distribution within the mixture (weight of lognormal is 1-w.gumbel)}
 }
