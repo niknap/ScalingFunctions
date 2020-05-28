@@ -4,8 +4,14 @@
 \alias{dmixture_lnorm_gumbel}
 \title{Density of mixture distribution of lognormal and gumbel distribution}
 \usage{
-dmixture_lnorm_gumbel(x, logmean, logsd, gumbel.alpha, gumbel.scale,
-  w.gumbel = 0.05)
+dmixture_lnorm_gumbel(
+  x,
+  logmean,
+  logsd,
+  gumbel.alpha,
+  gumbel.scale,
+  w.gumbel = 0.05
+)
 }
 \arguments{
 \item{x}{Input vector of values}

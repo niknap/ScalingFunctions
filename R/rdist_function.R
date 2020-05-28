@@ -1,12 +1,13 @@
 #' Random numbers from distribution
 #'
 #' Random number generation from arbitrary distribution defined by
-#' a value vector x and a probability or frequency vector y
+#' a value vector x and a probability or frequency vector y. The function
+#' uses inverse transform sampling.
 #' @param n Number of samples that should be drawn from the distribution
 #' @param x.vec Vector defining the values of the distribution
 #' @param y.vec Vector defining the probability density or frequencies of the x values
 #' @return Vector of random numbers
-#' @keywords random number generator arbitrary custom distribution inverse CDF uniform sampling
+#' @keywords random number generator arbitrary custom distribution inverse transform sampling CDF uniform
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 rdist <- function(n, x.vec, y.vec){

@@ -4,15 +4,16 @@ Title: Collection of functions for scaling of distributions
 Version: 0.1.0
 Author: Nikolai Knapp
 Maintainer: Nikolai Knapp <nikolai.knapp@ufz.de>
-Description: The package provides function for calculating parameters and moments of common 
-probability distributions of environmental data. Further, there are functions
-for transferring distributions accross scales, random sampling of arbitrary 
-distributions and rank transformations.
+Description: The package provides functions for calculating parameters and 
+  moments of common probability distributions of environmental data. Further, 
+  there are functions for transferring distributions across scales, random 
+  sampling of arbitrary distributions and transformations of distributions.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports:
-data.table
-fitdistrplus
-truncdist
-RoxygenNote: 6.1.1
+  data.table,
+  fitdistrplus,
+  gstat,
+  truncdist
+RoxygenNote: 7.1.0

@@ -4,8 +4,14 @@
 \alias{dmixture_AGB_from_white_shot_noise}
 \title{Density of mixture distribution of aboveground biomass from white shot noise}
 \usage{
-dmixture_AGB_from_white_shot_noise(x, G.dist = "lnorm", G.par1, G.par2,
-  m.alpha, m.lambda)
+dmixture_AGB_from_white_shot_noise(
+  x,
+  G.dist = "lnorm",
+  G.par1,
+  G.par2,
+  m.alpha,
+  m.lambda
+)
 }
 \arguments{
 \item{x}{Input vector of AGB values}

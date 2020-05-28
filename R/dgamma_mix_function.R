@@ -1,10 +1,12 @@
 #' Density of mixed gamma distribution
 #'
-#' Probability density function for a mixture distribution of several gamma distributions
-#' (all contributing with equal weights)
+#' Probability density function for a mixture distribution of several gamma
+#' distributions (all contributing with equal weights)
 #' @param x Input vector of values
-#' @param shape Vector of shape parameters of all contributing gamma distributions
-#' @param rate Vector of rate parameters of all contributing gamma distributions
+#' @param shape Vector of shape parameters of all contributing gamma
+#' distributions
+#' @param rate Vector of rate parameters of all contributing gamma
+#' distributions
 #' @return Vector of densities for each value in x
 #' @keywords mixture distribution gamma PDF density sum
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de

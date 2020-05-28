@@ -18,7 +18,8 @@ Vector of random numbers
 }
 \description{
 Random number generation from arbitrary distribution defined by
-a value vector x and a probability or frequency vector y
+a value vector x and a probability or frequency vector y. The function
+uses inverse transform sampling.
 }
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
@@ -32,4 +33,5 @@ Nikolai Knapp, nikolai.knapp@ufz.de
 \keyword{number}
 \keyword{random}
 \keyword{sampling}
+\keyword{transform}
 \keyword{uniform}
