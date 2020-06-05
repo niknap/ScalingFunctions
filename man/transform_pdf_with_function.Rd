@@ -8,6 +8,8 @@ transform_pdf_with_function(
   x.vec,
   x.d.vec,
   xy.func = function(x) {     1 * x },
+  xsdy.func = NA,
+  ysdy.func = NA,
   n.steps = 1000
 )
 }
@@ -16,21 +18,32 @@ transform_pdf_with_function(
 
 \item{x.d.vec}{Vector of probability densities of each x value}
 
-\item{xy.func}{Function which relates x to y; Default is y=x, i.e. as an R
-function function(x){1*x}}
+\item{xy.func}{Function which relates x to y; Default is y=x}
+
+\item{xsdy.func}{Function which relates x to SD of y; Default is NA,
+i.e., no uncertainty}
+
+\item{ysdy.func}{Function which relates y (i.e., f(x)) to SD of y;
+Default is NA, i.e., no uncertainty}
 
 \item{n.steps}{Number of discrete steps between which the PDF is
 approximated via linear interpolation during the transformation}
 }
 \value{
 List containing 1) y values for each input x value, 2) x values for
-all n steps, 3) y values for all n steps (of x) and 4) PDF values for all n
-steps, as well as the functions for the PDFs of 5) x and 6) y as approxfun
-functions
+all n steps, 3) y values for all n steps (of x; in the case with uncertainty
+included the range of y steps is wider than the range of f(x); it ranges
+from min(f(x)) minus the 99% prediction interval to max(f(x)) plus the 99%
+prediction interval of y), 4) PDF values for all x steps, 5) PDF values for
+all y steps, as well as the functions for the PDFs of 6) x and 7) y as
+approxfun functions
 }
 \description{
 The PDF of an independent variable x is transformed into the PDF of
-a dependent variable y, based on their relationship y=f(x).
+a dependent variable y based on their relationship y=f(x). Optionally,
+uncertainty in the x-y-relationship can be incorporated by providing
+a function that describes the SD of y (assuming Gaussian uncertainty
+in y direction) either as a function of x or as a function of predicted y.
 }
 \examples{
 # Simulate data from a lognormal distribution
@@ -38,15 +51,19 @@ my.x.vec <- rlnorm(200, 3.2, 0.3)
 my.x.d.vec <- dlnorm(my.x.vec, 3.2, 0.3)
 hist(my.x.vec, breaks=30, freq=F)
 curve(dlnorm(x, 3.2, 0.3), add=T, col="blue")
+points(my.x.d.vec ~ my.x.vec, col="red")
 # Define a power law relationship y=0.1*x^1.8
 my.xy.func <- function(x){0.1*x^1.8}
 # Apply the transformation
 transform.list <- transform_pdf_with_function(x.vec=my.x.vec,
 x.d.vec=my.x.d.vec, xy.func=my.xy.func, n.steps=1000)
-hist(transform.list$y)
 plot(transform.list$y ~ my.x.vec)
-plot(transform.list$pdf.steps ~ transform.list$x.steps)
-plot(transform.list$pdf.steps ~ transform.list$y.steps)
+plot(transform.list$x.steps.pdf ~ transform.list$x.steps)
+plot(transform.list$y.steps.pdf ~ transform.list$y.steps)
+hist(transform.list$y, breaks=30, freq=F)
+new.y.steps.vec <- 1:150
+new.y.pdf.vec <- transform.list$y.pdf.fun(new.y.steps.vec)
+lines(new.y.pdf.vec ~ new.y.steps.vec, col="blue")
 }
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
