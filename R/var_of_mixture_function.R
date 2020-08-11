@@ -14,7 +14,7 @@ var_of_mixture <- function(means, vars, weights=NA){
     weights[] <- 1
   }
   weights <- weights/sum(weights)
-  result <- sum(weights*(means^2+vars-mean.mix(means, weights)^2))
+  result <- sum(weights*(means^2+vars-mean_of_mixture(means, weights)^2))
   names(result) <- "var"
   return(result)
 }
