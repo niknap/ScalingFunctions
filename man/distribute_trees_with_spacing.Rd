@@ -4,8 +4,14 @@
 \alias{distribute_trees_with_spacing}
 \title{Distribute trees with spacing}
 \usage{
-distribute_trees_with_spacing(d.vec, minx = 0, maxx = 100, miny = 0,
-  maxy = 100, spacing.factor = 5)
+distribute_trees_with_spacing(
+  d.vec,
+  minx = 0,
+  maxx = 100,
+  miny = 0,
+  maxy = 100,
+  spacing.factor = 5
+)
 }
 \arguments{
 \item{d.vec}{Vector of tree stem diameters}

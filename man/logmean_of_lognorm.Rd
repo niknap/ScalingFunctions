@@ -12,7 +12,8 @@ logmean_of_lognorm(arithmean, arithsd)
 \item{arithsd}{Arithmetic standard deviation}
 }
 \value{
-Logarithmic standard deviation of lognormal distribution (sigma parameter)
+Logarithmic standard deviation of lognormal distribution (sigma
+parameter)
 }
 \description{
 Calculation of the logarithmic mean parameter (mu)

@@ -24,15 +24,17 @@ dmixture_lnorm_gumbel(
 
 \item{gumbel.scale}{Scale parameter of the gumbel distribution}
 
-\item{w.gumbel}{Weight of the gumbel distribution within the mixture (weight of lognormal is 1-w.gumbel)}
+\item{w.gumbel}{Weight of the gumbel distribution within the mixture (weight
+of lognormal is 1-w.gumbel)}
 }
 \value{
 Vector of densities for each value in x
 }
 \description{
-Probability density function for a mixture distribution composed of one lognormal and
-one gumbel distribution. The gumbel distribution is suited to model the extreme values
-in a heavy-tail dataset, while the lognormal models the regular values.
+Probability density function for a mixture distribution composed of one
+lognormal and one gumbel distribution. The gumbel distribution is suited to
+model the extreme values in a heavy-tail dataset, while the lognormal models
+the regular values.
 }
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de

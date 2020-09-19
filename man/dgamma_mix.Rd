@@ -9,16 +9,18 @@ dgamma_mix(x, shape, rate)
 \arguments{
 \item{x}{Input vector of values}
 
-\item{shape}{Vector of shape parameters of all contributing gamma distributions}
+\item{shape}{Vector of shape parameters of all contributing gamma
+distributions}
 
-\item{rate}{Vector of rate parameters of all contributing gamma distributions}
+\item{rate}{Vector of rate parameters of all contributing gamma
+distributions}
 }
 \value{
 Vector of densities for each value in x
 }
 \description{
-Probability density function for a mixture distribution of several gamma distributions
-(all contributing with equal weights)
+Probability density function for a mixture distribution of several gamma
+distributions (all contributing with equal weights)
 }
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de

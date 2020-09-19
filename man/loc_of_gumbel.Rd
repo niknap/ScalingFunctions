@@ -18,7 +18,8 @@ Location of gumbel distribution
 }
 \description{
 Calculation of the location parameter (sometimes called alpha) of a gumbel
-distribution from its mean and either variance or scale parameter (don't provide both)
+distribution from its mean and either variance or scale parameter (don't
+provide both)
 }
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
