@@ -4,7 +4,6 @@
 #' distribution from its variance
 #' @param var Variance of the gumbel distribution
 #' @return Scale of gumbel distribution
-#' @keywords variance standard deviation SD moments location scale gumbel arithmetic extreme value
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 scale_of_gumbel <- function(var){
