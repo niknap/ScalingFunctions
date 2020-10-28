@@ -20,6 +20,3 @@ Calculation of geometric mean.
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
 }
-\keyword{average}
-\keyword{geometric}
-\keyword{mean}

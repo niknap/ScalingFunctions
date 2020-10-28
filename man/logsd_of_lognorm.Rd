@@ -21,12 +21,3 @@ of a lognormal distribution from distribution moments
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
 }
-\keyword{SD}
-\keyword{arithmetic}
-\keyword{average}
-\keyword{deviation}
-\keyword{logarithmic}
-\keyword{lognormal}
-\keyword{mean}
-\keyword{moments}
-\keyword{standard}

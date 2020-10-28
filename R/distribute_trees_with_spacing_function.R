@@ -8,7 +8,6 @@
 #' @param maxy Maximal Y-coordinate of the area of interest
 #' @param spacing.factor Factor that specifies the minimal possible distance to the next neighbor tree as a function of tree stem diameter
 #' @return data.table of trees with positions
-#' @keywords coefficient of variation CV standard deviation SD moments lognormal arithmetic
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 distribute_trees_with_spacing <- function(d.vec, minx=0, maxx=100, miny=0, maxy=100, spacing.factor=5){

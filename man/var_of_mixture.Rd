@@ -22,9 +22,3 @@ Calculation of the variance of a mixture distribution from means and variances o
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
 }
-\keyword{deviation}
-\keyword{distribution}
-\keyword{mean}
-\keyword{mixture}
-\keyword{standard}
-\keyword{variance}

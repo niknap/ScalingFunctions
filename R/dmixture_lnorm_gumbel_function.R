@@ -12,8 +12,6 @@
 #' @param w.gumbel Weight of the gumbel distribution within the mixture (weight
 #' of lognormal is 1-w.gumbel)
 #' @return Vector of densities for each value in x
-#' @keywords mixture distribution lognormal gumbel PDF density sum extreme
-#' value theory outlier
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 dmixture_lnorm_gumbel <- function(x, logmean, logsd, gumbel.alpha,

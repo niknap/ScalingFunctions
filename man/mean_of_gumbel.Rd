@@ -21,12 +21,3 @@ distribution from function parameters
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
 }
-\keyword{arithmetic}
-\keyword{average}
-\keyword{extreme}
-\keyword{gumbel}
-\keyword{location}
-\keyword{mean}
-\keyword{moments}
-\keyword{scale}
-\keyword{value}

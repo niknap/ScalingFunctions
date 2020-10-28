@@ -5,7 +5,6 @@
 #' @param arithmean Arithmetic mean
 #' @param arithsd Arithmetic standard deviation
 #' @return Logarithmic standard deviation of lognormal distribution (sigma parameter)
-#' @keywords mean average standard deviation SD moments lognormal arithmetic logarithmic
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 logsd_of_lognorm <- function(arithmean, arithsd){

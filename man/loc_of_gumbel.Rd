@@ -24,12 +24,3 @@ provide both)
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
 }
-\keyword{arithmetic}
-\keyword{extreme}
-\keyword{gumbel}
-\keyword{location}
-\keyword{mean}
-\keyword{moments}
-\keyword{scale}
-\keyword{value}
-\keyword{variance}

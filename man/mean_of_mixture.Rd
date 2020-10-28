@@ -20,7 +20,3 @@ Calculation of the mean of a mixture distribution from means of all contributing
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
 }
-\keyword{average}
-\keyword{distribution}
-\keyword{mean}
-\keyword{mixture}

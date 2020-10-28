@@ -25,9 +25,3 @@ distributions (all contributing with equal weights)
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
 }
-\keyword{PDF}
-\keyword{density}
-\keyword{distribution}
-\keyword{gamma}
-\keyword{mixture}
-\keyword{sum}

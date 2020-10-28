@@ -11,7 +11,6 @@
 #' @param m.alpha Mortality parameter 1: white shot noise mean intensity
 #' @param m.lambda Mortality parameter 2: white shot noise mean frequency
 #' @return Vector of densities for each value in x
-#' @keywords mixture distribution gamma PDF density sum AGB growth gain mortality white shot noise
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 dmixture_AGB_from_white_shot_noise <- function(x, G.dist="lnorm", G.par1, G.par2, m.alpha, m.lambda){

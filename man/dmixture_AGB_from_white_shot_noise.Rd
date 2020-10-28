@@ -38,16 +38,3 @@ assumptions the distribution of AGB can be modelled as follows...
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
 }
-\keyword{AGB}
-\keyword{PDF}
-\keyword{density}
-\keyword{distribution}
-\keyword{gain}
-\keyword{gamma}
-\keyword{growth}
-\keyword{mixture}
-\keyword{mortality}
-\keyword{noise}
-\keyword{shot}
-\keyword{sum}
-\keyword{white}

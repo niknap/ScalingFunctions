@@ -20,6 +20,3 @@ Calculation of harmonic mean.
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
 }
-\keyword{average}
-\keyword{harmonic}
-\keyword{mean}

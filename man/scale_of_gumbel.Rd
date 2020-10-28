@@ -19,14 +19,3 @@ distribution from its variance
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
 }
-\keyword{SD}
-\keyword{arithmetic}
-\keyword{deviation}
-\keyword{extreme}
-\keyword{gumbel}
-\keyword{location}
-\keyword{moments}
-\keyword{scale}
-\keyword{standard}
-\keyword{value}
-\keyword{variance}

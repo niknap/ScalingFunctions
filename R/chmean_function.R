@@ -4,7 +4,6 @@
 #' @param x Input vector
 #' @param na.rm Boolean to remove missing values
 #' @return Contraharmonic mean
-#' @keywords contraharmonic mean average
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 chmean <- function(x, na.rm=T){

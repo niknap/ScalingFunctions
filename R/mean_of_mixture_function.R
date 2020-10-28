@@ -4,7 +4,6 @@
 #' @param means Vector of means of all contributing distributions
 #' @param weights Vector of weights of all contributing distributions
 #' @return Arithmetic mean of mixture distribution
-#' @keywords mean average mixture distribution
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 mean_of_mixture <- function(means, weights=NA){

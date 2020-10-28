@@ -5,7 +5,6 @@
 #' @param logmean Lognormal mean
 #' @param logsd Lognormal standard deviation
 #' @return Arithmetic mean of lognormal distribution
-#' @keywords mean average standard deviation SD moments lognormal arithmetic
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 arithmean_of_lognorm <- function(logmean, logsd){

@@ -7,8 +7,7 @@
 #' @param var Variance of the gumbel distribution
 #' @param scale Scale parameter of the gumbel distribution
 #' @return Location of gumbel distribution
-#' @keywords variance mean moments location scale gumbel arithmetic extreme
-#' value
+
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 loc_of_gumbel <- function(mean, var=NA, scale=NA){

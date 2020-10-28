@@ -5,7 +5,6 @@
 #' @param loc Location parameter of the gumbel distribution
 #' @param scale Scale parameter of the gumbel distribution
 #' @return Arithmetic mean of gumbel distribution
-#' @keywords mean average moments location scale gumbel arithmetic extreme value
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 mean_of_gumbel <- function(loc, scale){

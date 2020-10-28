@@ -8,7 +8,6 @@
 #' probability associated with each element of q.vec)
 #' @param x.vec Vector of values for which the densities should be returned
 #' @return Vector of probability densities for each element in x.vec
-#' @keywords quantile function inverse CDF PDF density
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 #' @examples my.r.vec <- rnorm(n=50, mean=10, sd=6)
 #' my.q.vec <- sort(my.r.vec)

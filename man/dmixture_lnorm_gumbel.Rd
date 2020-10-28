@@ -39,14 +39,3 @@ the regular values.
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
 }
-\keyword{PDF}
-\keyword{density}
-\keyword{distribution}
-\keyword{extreme}
-\keyword{gumbel}
-\keyword{lognormal}
-\keyword{mixture}
-\keyword{outlier}
-\keyword{sum}
-\keyword{theory}
-\keyword{value}

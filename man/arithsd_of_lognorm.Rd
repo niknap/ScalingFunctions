@@ -21,11 +21,3 @@ distribution from function parameters
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
 }
-\keyword{SD}
-\keyword{arithmetic}
-\keyword{average}
-\keyword{deviation}
-\keyword{lognormal}
-\keyword{mean}
-\keyword{moments}
-\keyword{standard}

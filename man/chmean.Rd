@@ -20,6 +20,3 @@ Calculation of contraharmonic mean.
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
 }
-\keyword{average}
-\keyword{contraharmonic}
-\keyword{mean}

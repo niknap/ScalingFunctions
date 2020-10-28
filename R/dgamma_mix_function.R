@@ -8,7 +8,6 @@
 #' @param rate Vector of rate parameters of all contributing gamma
 #' distributions
 #' @return Vector of densities for each value in x
-#' @keywords mixture distribution gamma PDF density sum
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 dgamma_mix <- function(x, shape, rate){

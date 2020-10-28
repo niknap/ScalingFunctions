@@ -5,7 +5,6 @@
 #' @param vars Vector of variances of all contributing distributions
 #' @param weights Vector of weights of all contributing distributions
 #' @return Variance of mixture distribution
-#' @keywords variance standard deviation mean mixture distribution
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 var_of_mixture <- function(means, vars, weights=NA){

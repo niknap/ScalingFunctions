@@ -7,7 +7,6 @@
 #' @param x.vec Vector defining the values of the distribution
 #' @param y.vec Vector defining the probability density or frequencies of the x values
 #' @return Vector of random numbers
-#' @keywords random number generator arbitrary custom distribution inverse transform sampling CDF uniform
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 rdist <- function(n, x.vec, y.vec){

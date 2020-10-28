@@ -4,7 +4,6 @@
 #' @param x Input vector
 #' @param na.rm Boolean to remove missing values
 #' @return Harmonic mean
-#' @keywords harmonic mean average
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 hmean <- function(x, na.rm=T){

@@ -4,7 +4,6 @@
 #' @param x Input vector
 #' @param na.rm Boolean to remove missing values
 #' @return Geometric mean
-#' @keywords geometric mean average
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 gmean <- function(x, na.rm=T, zero.rm=F){

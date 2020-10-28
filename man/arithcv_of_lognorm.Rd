@@ -19,13 +19,3 @@ distribution from function parameters
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
 }
-\keyword{CV}
-\keyword{SD}
-\keyword{arithmetic}
-\keyword{coefficient}
-\keyword{deviation}
-\keyword{lognormal}
-\keyword{moments}
-\keyword{of}
-\keyword{standard}
-\keyword{variation}

@@ -24,14 +24,3 @@ uses inverse transform sampling.
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
 }
-\keyword{CDF}
-\keyword{arbitrary}
-\keyword{custom}
-\keyword{distribution}
-\keyword{generator}
-\keyword{inverse}
-\keyword{number}
-\keyword{random}
-\keyword{sampling}
-\keyword{transform}
-\keyword{uniform}
