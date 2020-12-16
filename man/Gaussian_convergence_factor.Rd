@@ -18,13 +18,13 @@ Scale factor between the current scale and the scale of Gaussian convergence (nu
 }
 \description{
 According to the central limit theorem distributions of aggregated variables
-converge to a Gaussian shape with increasing aggregation. This function calculates
-the aggregation factor between the current scale and the scale of convergence
-for a given data vector. It is based on the Berry-Esseen
-theorem, which provides an upper bound for the distance between standard normal
-CDF and z-transformed empirical CDF (based on the 3rd moment). This distance between CDFs
-is the Kolmogorov-Smirnov statistic D and for a desired significance level alpha the
-critical value of D can be calculated.
+converge to a Gaussian shape with increasing aggregation. This function
+calculates the aggregation factor between the current scale and the scale of
+convergence for a given data vector. It is based on the Berry-Esseen theorem,
+which provides an upper bound for the distance between standard normal CDF
+and z-transformed empirical CDF (based on the 3rd moment). This distance
+between CDFs is the Kolmogorov-Smirnov statistic D and for a desired
+significance level alpha the critical value of D can be calculated.
 }
 \author{
 Nikolai Knapp, nikolai.knapp@ufz.de
