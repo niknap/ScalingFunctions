@@ -27,5 +27,7 @@
 #' @author Nikolai Knapp, nikolai.knapp@ufz.de
 
 gamma_mean_from_shape_rate <- function(shape, rate){
-  return(shape/rate)
+  mean <- shape/rate
+  names(mean) <- "mean"
+  return(mean)
 }
